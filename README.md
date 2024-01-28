@@ -1,5 +1,7 @@
 ## General Process documentation
 
+## Official Link for use: https://rawcdn.githack.com/jodycherpes/Rockin_Robs/283deb99b4b1bf831f5744010ffedf0e23dcbe13/Karaoke_songs.html
+
 ### Step 1: Creating a songbook in Hoster
 - At the top click "Song Book" (It will prepare a song book)
 - Selecting Fields

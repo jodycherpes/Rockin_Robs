@@ -55,7 +55,10 @@ $htmlTemplate = @"
 </head>
 <body>
 
-    <h1>Rockin Robs Karaoke Song List</h1>
+ <div class="header-container">
+        <img src="https://raw.githubusercontent.com/jodycherpes/Rockin_Robs/main/Rock_Robs_Logo.png" alt="Logo">
+        <h1>Rockin Robs Karaoke Song List</h1>
+    </div>
 
     <input type="text" id="searchInput" onkeyup="search()" placeholder="Search for any field">
 
@@ -142,3 +145,8 @@ $response = Invoke-RestMethod -Uri $uploadUrl -Headers @{
     Authorization = "Bearer $accessToken"
     Accept = "application/vnd.github.v3+json"
 } -Method PUT -Body $body
+
+#### Generating new RawCDN Link
+$newlink = "https://rawcdn.githack.com/jodycherpes/Rockin_Robs/" + $response.commit.sha + "/Karaoke_songs.html"
+$linkpath = $desktopPath + "\song_link.txt"
+$newlink | out-file -FilePath $linkpath

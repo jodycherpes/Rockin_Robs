@@ -28,6 +28,8 @@ The powershell script grabs the csv song book generated in it's default location
 ### Generating a usable link to view the HTML file
 - Get the perma link for the karaoke_songs.html file
 - Go to https://raw.githack.com/
+    - Production CDN's last for a year, meaning when the file is updated, the url will need to be regenerated and updated with a new post
+    - https://raw.githack.com/faq     
 - Add the perma link
 - Copy the Production link and give to Jodi
     - This can be sent to people, added to facebook, etc

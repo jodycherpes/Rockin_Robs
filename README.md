@@ -17,9 +17,6 @@
 - Go to the link on your facebook page and search for a newly added song to ensure it has been added
 - IF not reach out to Corey and he can take a look
 
-Official Link for use: https://rawcdn.githack.com/jodycherpes/Rockin_Robs/283deb99b4b1bf831f5744010ffedf0e23dcbe13/Karaoke_songs.html
-
-
 ## Technical Documentation (For Corey)
 The powershell script grabs the csv song book generated in it's default location
 - karaoke_songs.ps1
